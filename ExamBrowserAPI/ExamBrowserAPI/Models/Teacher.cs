@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace ExamBrowserAPI.Models;
+
+public partial class Teacher
+{
+    public int Id { get; set; }
+
+    public string Username { get; set; } = null!;
+
+    public string Password { get; set; } = null!;
+
+    public string FullName { get; set; } = null!;
+
+    public virtual ICollection<Exam> Exams { get; set; } = new List<Exam>();
+}
