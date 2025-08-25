@@ -1,0 +1,45 @@
+# Build results
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio folder
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider IDE
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+*.cache
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Backup files
+*.bak
+*.swp
+*.old
+*.orig
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Others
+*.vsix
